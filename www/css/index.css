@@ -22,7 +22,7 @@ div.c1 {
 }
 
 .blackTitle {
-	width: 100%;
+	xwidth: 100%;
 	background-color: black;
 	color: white;
 	padding-left: 1em;
@@ -30,12 +30,16 @@ div.c1 {
 
 .clanek {
 	background-color: #e5e5e4;
-	padding:0 1em 0 1em;
+	padding:0 1em 0.5em 1em;
 }
 
 .zarazeni {
-	color: #d1d792;
+	padding-top:1ex;
+	padding-bottom:0.5ex;
+	color: #c1c782;
+	font-size: 80%;
 }
+
 
 .nadpisClanku {
 	font-weight: bold;
@@ -47,4 +51,92 @@ div.c1 {
 
 .ikonky {
 	text-align: center;
+}
+
+ul.seznam {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+ul.seznam li {
+	list-style-type: none;
+	display: block;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1)));
+	padding: 1em 1em 1em 1em;	
+}
+
+div.c2 a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 14pt;
+}
+
+p.pfirst {
+	margin-top: 0;
+}
+
+div.obsah {
+	font-family: Cambria, 'Sanchez', serif;
+	padding-bottom: 1ex;
+}
+
+div.poledniMenu {
+	padding: 0em 1em 1em 1em;
+}
+
+div.poledniMenu table  {
+	width: 100%;
+	background-color: #e5e5e4;	
+	padding-bottom: 1ex;
+	padding-top: 1ex;
+}
+
+
+div.poledniMenu table caption {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1)));
+	text-align: left;
+	padding-left: 1em;
+	padding-top: 1ex;
+	padding-bottom: 1ex;
+}
+
+div.poledniMenu td {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+div.restaurace {
+	font-size: 80%;
+	padding-bottom: 1em;
+}
+
+p.restauraceNadpis {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+div.prvniClanek {
+	background-color: #e5e5e4;
+}
+
+div.zarazeni2 {
+	color: #c1c782;
+	padding-bottom: 0.5ex;
+}
+
+div.seznamClanku {
+	padding: 1ex 1em 1em 1em;
+}
+
+div.seznamClanku a.readMore {
+	float: right;
+	color: #a1a762;
 }
