@@ -50,6 +50,7 @@ div.c1 {
 }
 
 .ikonky {
+	padding-top: 0.5ex;
 	text-align: center;
 }
 
@@ -139,4 +140,8 @@ div.seznamClanku {
 div.seznamClanku a.readMore {
 	float: right;
 	color: #a1a762;
+}
+
+div.ikonky img {
+	margin: 2px 2px 2px 2px;
 }
