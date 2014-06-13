@@ -110,11 +110,14 @@
     <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
--->
+
+
 
 	<gap:splash src="splash/splash.jpg"   />
+-->
+
 	
-    <!-- Define app splash screen for each platform. 
+    <!-- Define app splash screen for each platform. -->
     <gap:splash src="splash/splash200x320.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="splash/splash320x480.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="splash/splash480x800.png"  gap:platform="android" gap:density="hdpi" />
@@ -125,7 +128,6 @@
     <gap:splash src="splash/splash640x960.png"   gap:platform="ios"    width="640" height="960" />
     <gap:splash src="splash/splash320x480.png"   gap:platform="ios"    width="320" height="480" />
 
--->
 
     <!--
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
